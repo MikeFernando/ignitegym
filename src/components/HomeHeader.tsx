@@ -5,7 +5,7 @@ import { UserFoto } from './UserFoto'
 
 export const HomeHeader = () => {
   return (
-    <HStack bg='gray.500' pt={16} pb={5} px={8} alignItems='center'>
+    <HStack bg='gray.600' pt={16} pb={5} px={8} alignItems='center'>
       <UserFoto 
         source={{ uri: 'https://github.com/MikeFernando.png' }}
         alt='Imagem do usuário'
