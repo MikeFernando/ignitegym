@@ -15,7 +15,8 @@ export const HomeHeader = () => {
 
       <VStack flex={1}>
         <Text color='gray.100' fontSize='md'>
-          Olá</Text>
+          Olá
+        </Text>
         <Heading color='gray.100' fontSize='md'>
           Mike Fernando
         </Heading>

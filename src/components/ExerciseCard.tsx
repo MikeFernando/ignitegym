@@ -20,12 +20,21 @@ export const ExerciseCard = ({ ...rest }: Props) => {
             />
 
             <VStack flex={1}>
-              <Heading color='white' fontSize='lg' numberOfLines={1}>
-                  Remada unilateral lorem
-              </Heading>
-              <Text color='gray.200' fontSize='sm' mt={1} numberOfLines={2}>
-                  3 series de 12 repetições
-              </Text>
+                <Heading 
+                  color='white' 
+                  fontSize='lg' 
+                  numberOfLines={1}
+                >
+                    Remada unilateral
+                </Heading>
+                <Text 
+                  color='gray.200' 
+                  fontSize='sm' 
+                  mt={1} 
+                  numberOfLines={2}
+                >
+                    3 series de 12 repetições
+                </Text>
             </VStack>
             
             <Icon 
